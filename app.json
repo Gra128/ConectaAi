@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Conecta Ai",
+    "slug": "conectaai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imagens/icone.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/imagens/icone.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imagens/icone.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.graoliveira.conectaai"
+    },
+    "web": {
+      "favicon": "./assets/imagens/icone.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0969a4c8-ad49-4930-8a1c-cc31e61a111b"
+      }
+    },
+    "cli": {
+      "appVersionSource": "remote"
+    }
+  }
+}
